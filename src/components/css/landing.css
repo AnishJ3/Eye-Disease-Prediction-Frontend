@@ -1,0 +1,252 @@
+
+
+.landing-nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 25, 93);
+}
+
+.landing-items
+{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.landing-items button
+{
+    background-color: rgba(64, 224, 208);
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+}
+
+.landing-items a, button
+{
+    margin: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.landing-items a
+{
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.speciality
+{
+    margin: 10px 0px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 100px;
+
+}
+
+.speciality-title
+{
+    font-size:40px ;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.speciality-items
+{
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.speciality-card
+{
+    width: 300px;
+    height: 200px;
+}
+
+.card-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    color:  rgb(40, 25, 93);
+}
+
+.speciality-card img
+{
+    width: 300px;
+    height: 200px;
+}
+
+.card-text
+{
+    color: gray;
+    font-size: 15px;
+}
+
+.card-btn
+{
+    width: 110px;
+    padding: 10px;
+    color:rgb(40, 25, 93) ;
+    background: transparent;
+    border: none;
+    border: 1px solid gray;
+    font-size: 13px;
+}
+.card-btn:hover
+{
+    background-color: gray;
+    color:lightgray;
+}
+
+.speciality-learn
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.speciality-learn-items
+{
+    width: 380px;
+    height: auto;
+    background-color:rgb(40, 25, 93) ;
+    color: white;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.speciality-learn-title
+{
+    font-size:25px ;
+    font-weight: 600;
+}
+
+.speciality-btn
+{
+
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.speciality-box
+{
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.speciality-text
+{
+    color: black;
+}
+
+.Read-Less
+{
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer 
+}
+
+.welcome
+{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    margin: 20px 0px;
+}
+
+.welcome-container
+{
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.welcome-text
+{
+    font-size: 60px;
+    position: absolute;
+    top: 30px;
+    letter-spacing: 1px;
+    z-index: 2;
+    color:rgb(40, 25, 93);
+    font-weight: 500;
+}
+
+.welcome-image
+{
+    position: absolute;
+    right:0px;
+    width: 900px;
+    height: 550px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.welcome-subtext
+{
+    position: absolute;
+    font-size: 20px;
+    top: 160px;
+    color: rgb(40, 25, 93);
+}
+
+.about
+{
+    margin: 40px 0px;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    padding: 30px 0px;
+}
+
+
+.about-container
+{
+    width: 80%;
+    margin: 0px auto;
+
+}
+
+.about-title
+{
+    font-size: 50px;
+    color: rgb(40, 25, 93);
+
+}
+
+.about-items
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-item-text
+{
+    width: 580px;
+    line-height: 26px;
+    color: gray;
+    font-weight: 500;
+}
+
+.about-item-pic
+{
+    width: 500px;
+    height: 430px;
+}

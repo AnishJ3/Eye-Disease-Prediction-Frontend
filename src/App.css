@@ -1,38 +1,306 @@
-.App {
+
+
+body{
+  /* background-color: rgb(0, 255, 174); */
+  background-color: rgb(64, 224, 208);
+}
+
+.container
+{
+  width: 500px;
+  height: 550px;
+  background-color: white;
+  margin: 100px auto;
+  
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.title
+{
+  display: block;
+  color: blueviolet;
   text-align: center;
+  padding:20px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container
+{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-1, .input-2
+{
+  margin:10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-1 label, .input-2 label
+{
+  margin-bottom:10px;
+  font-size: 25px;
+
+}
+
+.input-1 input, .input-2 input
+{
+  width: 100%;
+  font-size: 25px;
+}
+
+.register
+{
+  font-size: 20px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding:0px 10px;
+  position: relative;
+  box-shadow: 0 5px 30px -8px rgba(0, 0, 0,.5);
+  
+}
+
+.navbar ul
+{
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li
+{
+  padding: 10px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 0px 15px;
+}
+
+.navbar-brand img{
+  height: 50px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.navbar-brand
+{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-left: 30px;
+}
+
+.navbar-brand span
+{
+  color: rgba(64, 224, 208);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.patient-container
+{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  margin: 30px auto;
+  padding:30px;
+  border: 2px solid green;
+
+
+}
+
+.patient-container .patient-title 
+{
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
+
+.patient-container input
+{
+  margin:10px 0px;
+  padding: 5px;
+}
+
+.patient-container  button
+{
+  padding: 20px;
+  width: 300px;
+  margin: 0px auto;
+  color: white;
+  background-color: green;
+  font-size: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.sidebar
+{
+  width: 230px;
+  height: 250px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.sidebar div
+{
+  width: 100%;
+  background-color:white;
+  border: 3px solid rgb(32, 228, 228);
+  margin: 20px;
+  padding: 10px;
+}
+.sidebar button
+{
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+
+.user-pic
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.user-btn
+{
+  border: none;
+  background-color: none;
+  padding: 0px;
+  border-radius: 54%;
+  cursor: pointer;
+  position: relative;
+  margin-right: 20px;
+  border: none;
+}
+
+.footer-container
+{
+  width: 100%;
+  height: 450px;
+  margin-top: 200px;
+  background-color: #3c3c3c;
+}
+
+.footer
+{
+  margin:0px auto;
+  width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding:20px;
+  border-bottom: 1px solid gray;
+}
+
+.footer a{
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-item
+{
+  width: 300px;
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-heading
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-text
+{
+  color:white;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.footer-link
+{
+  padding-bottom: 6px;
+  border-bottom: 2px solid white;
+}
+
+.footer-banner
+{
+  width: 60px;
+  height: 60px;
+  color: white;
+}
+
+.footer-item-list
+{
+  width: 200px;
+  margin: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: 600;
+  
+}
+
+.footer .call
+{
+  width: 40px;
+  height: 40px;
+  padding-right:20px ;
+
+}
+
+.footer-foot
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item1
+{
+  margin-left: 100px;
+  
+}
+
+.social-links
+{
+  margin:0px auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.social 
+{
+  width: 30px;
+  height: 30px;
+  margin: 20px 20px;
+  cursor: pointer;
 }

@@ -1,0 +1,38 @@
+
+.slider-container
+{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    right: -50px;
+    background-color: white;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    border-radius: 30px;
+    transition: all 1s;
+    
+}
+
+.slider-container ul
+{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+}
+
+.slider-container li
+{
+    margin:10px;
+    border-bottom: 2px solid gray ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.slider-container li:nth-child(4)
+{
+    border-bottom: none;
+}
