@@ -10,9 +10,7 @@
                 <button type="submit" id="2" onClick={handleChange}>Upload image</button>
             </div>
 
-            <div className="result">
-                <button type="submit" id="3" onClick={handleChange}>Past Results</button>
-            </div>
+            
 
         </div>
         </>

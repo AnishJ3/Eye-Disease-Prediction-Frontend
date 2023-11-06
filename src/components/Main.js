@@ -25,18 +25,18 @@ const Main = () =>
 
     const handleChange = (e) =>{
 
-        if(e.target.id == 1)
-        {
-            setFlag1(true);setFlag2(false);setFlag3(false);
-        }
-        else if(e.target.id == 2)
-        {
-            setFlag1(false);setFlag2(true);setFlag3(false);
-        }
-        else if(e.target.id == 3)
-        {
-            setFlag1(false);setFlag2(false);setFlag3(true);
-        }
+        // if(e.target.id == 1)
+        // {
+        //     setFlag1(true);setFlag2(false);setFlag3(false);
+        // }
+        // else if(e.target.id == 2)
+        // {
+        //     setFlag1(false);setFlag2(true);setFlag3(false);
+        // }
+        // else if(e.target.id == 3)
+        // {
+        //     setFlag1(false);setFlag2(false);setFlag3(true);
+        // }
     }
 
     useEffect(()=>{
@@ -88,9 +88,7 @@ const Main = () =>
                     {
                         flag2 && <Upload name={docVal.name} pname={pname}  />
                     }
-                    {
-                        flag3 && <PastResults docName={docVal.name} />
-                    }
+                    
 
                 </div>
 

@@ -15,12 +15,7 @@ const NewPatient = () =>{
     const [Date, setDate] = useState();
     let doc = useLocation();
     const docEmail = doc.state.docEmail
- 
-
-    
     const nav = useNavigate()
-
-    
 
     const handleSubmit = (e) =>{
         e.preventDefault()

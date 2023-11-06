@@ -73,6 +73,7 @@ td
 .btns
 {
     display: flex;
+   
 }
 
 .btns button
@@ -80,5 +81,7 @@ td
     border: none;
     cursor: pointer;
     background-color: transparent;
-    width: 30px;
+    border: 2px solid red;
+    background-color: white;
+
 }
