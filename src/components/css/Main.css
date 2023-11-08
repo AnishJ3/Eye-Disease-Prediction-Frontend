@@ -8,7 +8,7 @@
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 
 }
 
@@ -29,9 +29,6 @@ th
     border-bottom: 2px solid black;
     
 }
- 
-
-
 
 tr:nth-child(odd) {
  
@@ -45,8 +42,8 @@ th
 }
 .data-container
 {
-    margin-right: 200px;
-    width: 950px;
+    margin-right: 90px;
+    width: 1150px;
     height: 700px;
     display: flex;
     justify-content: center;
@@ -76,12 +73,35 @@ td
    
 }
 
-.btns button
+.delete-btn
 {
-    border: none;
+    padding: 10px;
     cursor: pointer;
-    background-color: transparent;
-    border: 2px solid red;
-    background-color: white;
+    background-color: rgb(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+}
 
+.edit-btn
+{
+    padding: 10px;
+    cursor: pointer;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+
+}
+
+.result-res
+{
+    font-weight: bolder;
+}
+.edit-btn:hover
+{
+    background-color: green;
+}
+
+.delete-btn:hover
+{
+    background-color: red;
 }

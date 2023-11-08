@@ -41,23 +41,23 @@ const NewPatient = () =>{
 
             <form onSubmit={handleSubmit}>
                 <label htmlFor="name">Name</label>
-                <input type="text" id="name" 
+                <input type="text" id="name"  required
                 onChange={e => setName(e.target.value)}></input>
 
                 <label htmlFor="age">Age</label>
-                <input type="text" id="age"
+                <input type="text" id="age" required
                 onChange={e => setAge(e.target.value)}></input>
 
                 <label htmlFor="email">Email</label>
-                <input type="email" id="email"
+                <input type="email" id="email" required
                 onChange={e => setEmail(e.target.value)}></input>
 
                 <label htmlFor="no">Mob No.</label>
-                <input type="text" id="no"
+                <input type="text" id="no" required
                 onChange={e => setNo(e.target.value)}></input>
 
                 <label htmlFor="date">Date of Visit</label>
-                <input type="date" id="date"
+                <input type="date" id="date" required
                 onChange={e => setDate(e.target.value)}></input>
 
                 <button type="submit">Submit</button>

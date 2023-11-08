@@ -14,8 +14,6 @@ const Slider = () =>{
         <div className='slider-container'>
             <ul className='slid'>
                 <li onClick={handleLogout}>Logout</li>
-                <li>History</li>
-                <li>Contact</li>
                 <li>Close <span>❌</span></li>
             </ul>
         </div>

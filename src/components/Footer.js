@@ -23,43 +23,30 @@ const Footer = () =>{
 
                     <p className="footer-text">
                         
-                    Find a doctor tool assists you in choosing from our diverse
-                     pool of health specialists. Discover better health &amp; 
-                     wellness by using our doctor ratings &amp; reviews to make your choice                                    
+                    Click on the link below this text to find a eye Specialist
+                    near to you and book a appointment wiht him to get your
+                    eyes checked.                                 
                     </p>
                     
-                    <a className="footer-link"href="">Find an Eye Specialist</a>
+                    <a className="footer-link"href="https://www.centreforsight.net/doctor/eye-specialist-near-me/">Find an Eye Specialist</a>
                 </div>
 
                 <div className="footer-item">
                     <img className="footer-banner" src={hospital}/>
 
                     <p className="footer-heading">
-                        Locate Center For Sight
+                        Visit Center For Sight
                     </p>
 
                     <p className="footer-text">
                         
-                    From locating one of our centres across India to booking an appointment, we are just a click away!                                    
+                    Established in 1996, Centre for Sight has been continuously striving to provide specialized eye care for all. The group is a leading provider of specialized eye care with 50+ centres across 25+ cities in 12 states of India.
                     </p>
                     
-                    <a className="footer-link"href="">Locate a Center</a>
+                    <a className="footer-link"href="https://www.centreforsight.net/eye-hospitals-in-india/">Locate a Center</a>
                 </div>
 
-                <div className="footer-item">
-                    <img className="footer-banner" src={checked}/>
-
-                    <p className="footer-heading">
-                        Locate Center For Sight
-                    </p>
-
-                    <p className="footer-text">
-                        
-                    From locating one of our centres across India to booking an appointment, we are just a click away!                                    
-                    </p>
-                    
-                    <a className="footer-link"href="">See our all specialities</a>
-                </div>
+                
 
                 <div className='footer-item1'>
 
@@ -86,9 +73,11 @@ const Footer = () =>{
             </div>
 
             <div className='social-links'>
-                <img className='social' src={linkedin}/>
-                <img className='social' src={github}/>
-                <img className='social' src={facebook}/>
+                <a  href="https://www.linkedin.com/in/anish-joshi-5008b0228" ><img className='social' src={linkedin}/></a>
+                <a href="https://github.com/AnishJ3">
+                <img className='social' href="https://github.com/AnishJ3" src={github}/>
+                </a>
+                
             </div>
 
         </div>

@@ -60,12 +60,12 @@ const PatientRecords = ({data, setFlag1, setFlag2 , setFlag3, setPName, docEmail
                                     <td>{val.Date}</td>
                                     
                                     <td className='btns'>
-                                        <button onClick={handleDelete} name={val._id}>Delete</button>
-                                        <button onClick = {handleEdit} id={val._id}>Edit</button>
+                                        <button className="delete-btn" onClick={handleDelete} name={val._id}>Delete</button>
+                                        <button className="edit-btn" onClick = {handleEdit} id={val._id}>Edit</button>
                                     </td>
-                                    <td>{val.result}</td>
+                                    <td className='result-res'>{val.result}</td>
                                     <td className='upload-btn'>
-                                        <button name={val.name} onClick={handleClick}>Upload</button>
+                                        <button name={val.name} className='upl-btn' onClick={handleClick}>Upload</button>
                                     </td>
                                     
                                 </tr>

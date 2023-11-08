@@ -5,6 +5,7 @@ import Axios from "axios"
 import { useNavigate } from "react-router-dom";
 import './css/Home.css'
 import Footer from "./Footer";
+import Footer1 from "./Footer1";
 
 const Home = () =>
 {
@@ -71,7 +72,7 @@ const Home = () =>
                 </div>
             </div>
 
-            <Footer />
+            <Footer1 />
             
         </>
     );

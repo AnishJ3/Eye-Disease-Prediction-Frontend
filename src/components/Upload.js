@@ -31,7 +31,7 @@ const Upload = ({name, pname}) =>{
 
         const loadModel = async() =>
         {
-            const model = await tf.loadGraphModel("Model2/model.json");  
+            const model = await tf.loadGraphModel("Model6/model.json");  
             setModelLoaded(true);
             setModel(model);
         };

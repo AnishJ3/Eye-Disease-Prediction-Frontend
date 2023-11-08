@@ -9,6 +9,7 @@ import PastResults from "./PastResults";
 import Upload from "./Upload";
 import Slider from "./Slider";
 import Footer from "./Footer";
+import Footer1 from "./Footer1";
 
 const Main = () =>
 {
@@ -25,18 +26,11 @@ const Main = () =>
 
     const handleChange = (e) =>{
 
-        // if(e.target.id == 1)
-        // {
-        //     setFlag1(true);setFlag2(false);setFlag3(false);
-        // }
-        // else if(e.target.id == 2)
-        // {
-        //     setFlag1(false);setFlag2(true);setFlag3(false);
-        // }
-        // else if(e.target.id == 3)
-        // {
-        //     setFlag1(false);setFlag2(false);setFlag3(true);
-        // }
+        if(e.target.id == 1)
+        {
+            setFlag1(true);setFlag2(false);setFlag3(false);
+        }
+        
     }
 
     useEffect(()=>{
@@ -94,7 +88,7 @@ const Main = () =>
 
             </div>
 
-            <Footer />
+            <Footer1 />
         
         </>
         

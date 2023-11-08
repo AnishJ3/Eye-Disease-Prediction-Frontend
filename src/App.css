@@ -1,8 +1,12 @@
-
+.logo
+{
+  width: 40px;
+  height: 40px;
+}
 
 body{
-  /* background-color: rgb(0, 255, 174); */
-  background-color: rgb(64, 224, 208);
+  background-color: rgb(0, 255, 174, 0.8); 
+   /* background-color: rgb(55, 241, 222);  */
 }
 
 .container
@@ -14,6 +18,35 @@ body{
   
 }
 
+.login-body
+{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  background-color:white;
+
+}
+
+.login-redirect
+{
+  margin: 20px;
+}
+
+.login-content
+{
+  width: auto;
+  height: auto;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 30px -8px rgba(0, 0, 0,.5);
+  border-radius: 50px;
+  
+}
 form{
   display: flex;
   justify-content: center;
@@ -29,23 +62,49 @@ form{
   padding:20px 0px;
 }
 
-.container
+.login-image
 {
+  width: 400px;
+  height: 500px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.login-container
+{
+  width: 550px;
+  height: 500px;
+  background-color: white;
   display: flex;
   justify-content: start;
   align-items: center;
   flex-direction: column;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  
 }
 
+.register-container
+{
+  margin: 0px auto;
+  width: 650px;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  box-shadow: 0 5px 30px -8px rgba(0, 0, 0,.5);
+}
 .input-1, .input-2
 {
-  margin:10px;
+  margin:15px;
 }
 
 .input-1 label, .input-2 label
 {
-  margin-bottom:10px;
-  font-size: 25px;
+  font-weight: 300;
+  font-size: 20px;
 
 }
 
@@ -53,18 +112,41 @@ form{
 {
   width: 100%;
   font-size: 25px;
+  padding: 5px;
 }
 
 .register
 {
   font-size: 20px;
-  padding: 10px;
-  background-color: green;
+  padding: 15px;
+  background-color: rgb(80, 50, 187);
   color: white;
-  width: 100%;
-  margin-top: 10px;
+  width: 60%;
+  border-radius: 20px;
+  margin: 20px auto;
+  border: none;
 }
 
+.register:hover
+{
+
+  background-color: white;
+  color: rgb(80, 50, 187);
+  border: 2px solid rgb(80, 50, 187);
+}
+.register-body
+{
+  padding-top: 110px;
+  background-color: white;
+  height: 730px;
+}
+.login-container .title, .register-container .title
+{
+  color: rgb(80, 50, 187);
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
 
 .navbar
 {
@@ -103,6 +185,12 @@ form{
   display: flex;
   flex-direction: column;
   margin-left: 30px;
+}
+.navbar-brand img
+{
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
 }
 
 .navbar-brand span
@@ -165,9 +253,15 @@ form{
 {
   width: 100%;
   background-color:white;
-  border: 3px solid rgb(32, 228, 228);
+  border:none;
   margin: 20px;
   padding: 10px;
+}
+
+.sidebar div:hover
+{
+  background-color: rgb(128, 128, 128, 0.6);
+  color: white;
 }
 .sidebar button
 {
@@ -175,9 +269,11 @@ form{
   background-color: transparent;
   font-size: 30px;
   cursor: pointer;
-
 }
+.sidebar button:hover{
 
+  color: white;
+}
 .user-pic
 {
   height: 40px;
@@ -202,9 +298,16 @@ form{
   width: 100%;
   height: 450px;
   margin-top: 200px;
-  background-color: #3c3c3c;
+  background:linear-gradient(to right, rgb(92, 70, 172), rgb(61, 25, 189));
 }
 
+.footer1-container
+{
+  width: 100%;
+  height: 450px;
+  margin-top: 200px;
+  background-color: rgb(0, 0, 0, 0.8);
+}
 .footer
 {
   margin:0px auto;

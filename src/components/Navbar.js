@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import Logo from "../images/eye.png"
+import Logo from "../images/eyeimg.jpeg"
 import User from "../images/user.png"
 import Slider from "./Slider";
+import { useNavigate } from "react-router-dom";
 
 
 const Navbar = ({id,name}) =>{
 
+    const nav = useNavigate()
     const [_id,setID] = useState();
     const [_name,setName] = useState();
     const [slider, setSlider] = useState(false);
@@ -23,15 +25,17 @@ const Navbar = ({id,name}) =>{
         setSlider(false)
     }
 
-  
+    const handleHome = () =>{
+        nav('/');
+    }
 
     return(
 
         <>
             <div className="navbar" >
                 <div className="navbar-brand" >
-                    <img className="logo" src={Logo}/>
-                    <span>EYECARE</span>
+                    <img onClick = {handleHome} className="logo" src={Logo}/>
+                    
                 </div>
 
                 <ul className="nav-items">
